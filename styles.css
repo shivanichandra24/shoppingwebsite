@@ -1,0 +1,197 @@
+/* Reset default styles and add basic styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ecf3eddc;
+}
+header {
+    background-color: #be0d42;
+    color: #f2f3f8;
+    padding: 10px 0;
+    position: fixed; /* Make the header fixed at the top */
+    width: 100%; /* Take the full width of the viewport */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000; /* Ensure it stays above other elements */
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 120px;
+} 
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    background-color: #e281da;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #eb8aee;
+
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Add this style for better spacing between header and section */
+section.section-1 {
+    margin-top: 50px; /* Adjust as needed based on your header height */
+}
+
+.section-1 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(248, 241, 241);
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+
+.section-1-container {
+    width: 100%; /* Adjust as needed */
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-1-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-1-item img {
+    width: 64px;
+    height: 64px;
+}
+
+
+.new-offers {
+    margin-bottom: 40px;
+}
+
+.new-offers h2 {
+    font-size: 1.5rem;
+}
+
+.offer {
+    margin: 20px;
+}
+
+.offer img {
+    max-width: 100%;
+}
+.product-categories {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-categories h2 {
+    font-size: 1.5rem;
+}
+
+.category {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.category a {
+    text-decoration: none;
+    color: #333;
+}
+
+.category img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* Product styling */
+.product {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+.product .productimg {
+    flex: 1;
+}
+
+.product .details {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.product img {
+    max-height: 200px;
+}
+h1 {
+    text-align: center;
+    margin-top: 80px; /* Adjust the value based on the header height */
+}
+.add-to-cart {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px; /* Increase the padding for height and width */
+    font-size: 12px; /* Increase the font size */
+}
+
+.add-to-cart:hover {
+    background-color: #0056a4;
+}
+/* Add more styling as needed */
